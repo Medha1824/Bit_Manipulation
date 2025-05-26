@@ -11,7 +11,7 @@ int Divide(int dvdn,int dvsr)
       int sign= 1;
       if(dvdn>=0 && dvsr<0)
             sign =0;
-      if(dvdn<0  && dvsr<0)
+      if(dvdn<0  && dvsr>0)
             sign =0;
       int n=abs(dvdn);
       int d=abs(dvsr);
